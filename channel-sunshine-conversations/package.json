@@ -1,0 +1,25 @@
+{
+  "name": "channel-sunshine-conversations",
+  "fullName": "Channel - Sunshine Conversations",
+  "version": "1.0.0",
+  "status": "stable",
+  "description": "A Botpress connector for Sunshine Conversations V2",
+  "private": true,
+  "main": "dist/backend/index.js",
+  "scripts": {
+    "build": "node ../../build/module-builder/bin/entry build",
+    "watch": "node ../../build/module-builder/bin/entry watch",
+    "package": "node ../../build/module-builder/bin/entry package"
+  },
+  "author": "Gabriel Oliveira",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "jsonwebtoken": "^8.5.1",
+    "smooch-core": "^8.8.0"
+  },
+  "resolutions": {
+    "fstream": ">=1.0.12",
+    "lodash": ">=4.17.12"
+  }
+}
